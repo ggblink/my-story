@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: /img/butterfly2.jpg
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -35,7 +35,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: darker
   macStyle: false
   # Code block height limit (unit: px)
   height_limit: false
@@ -59,11 +59,11 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/butterfly3.jpg
 
 avatar:
-  img: /img/butterfly-icon.png
-  effect: false
+  img: /img/joker.jpg
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
@@ -72,7 +72,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /img/images.jpg
 
 # The banner image of archive page
 archive_img:
@@ -98,7 +98,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/background2.jpg
 
 cover:
   # Disable the cover or not
@@ -106,7 +106,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover:
+  default_cover: /img/images11.jpg
     # - xxx.jpg
 
 # Replace Broken Images
@@ -154,7 +154,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -170,7 +170,8 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-
+    - 成功不是终点，失败不是末日，重要的是继续前行的勇气
+    - Success is not final, failure is not fatal it is the courage to continue that counts
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -278,11 +279,11 @@ footer:
 aside:
   enable: true
   hide: false
-  # Show the button to hide the aside in bottom right button
+  # Show the button to hide the aside in bottom right btttton
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
@@ -294,10 +295,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/ggblink/my-story
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 不知道写什么，想出来好难
   card_recent_post:
     enable: true
     # If set 0 will show all

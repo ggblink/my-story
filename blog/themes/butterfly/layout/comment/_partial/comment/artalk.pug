@@ -1,0 +1,16 @@
+.article-comments
+  #Comments
+
+  // 加载 Artalk 样式和 JS
+  link(rel="stylesheet", href="/lib/artalk/Artalk.css")
+  script(src="/lib/artalk/Artalk.js")
+
+  // 初始化 Artalk
+  script.
+    var artalk = Artalk.init({
+      el: '#Comments',
+      pageKey: '!{page.permalink}',
+      pageTitle: '!{page.title}',
+      server: '!{theme.comment.artalk.server}',
+      site: '!{theme.comment.artalk.site}'
+    });

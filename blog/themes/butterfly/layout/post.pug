@@ -33,3 +33,5 @@ block content
     if page.comments !== false && theme.comments.use
       - var commentsJsLoad = true
       !=partial('includes/third-party/comments/index', {}, {cache: true})
+//- if page.comments !== false && theme.comments.use
+//-  include _partial/comment/artalk.pug
