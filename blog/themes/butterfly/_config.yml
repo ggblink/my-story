@@ -19,11 +19,11 @@ nav:
 
 menu_show: true
 menu:
-  首页: /
+  首页: / || fa-solid fa-house
   页面:
-    分类: /categories/
-    标签: /tags/
-  友情链接: /link/
+    分类: /categories/ || fas fa-th-large
+    标签: /tags/ || fas fa-tags
+  友情链接: /link/ || fas fa-link
   # Home: / || fas fa-home
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
@@ -62,8 +62,8 @@ social:
 favicon: /img/butterfly3.jpg
 
 avatar:
-  img: /img/joker.jpg
-  effect: true
+  img: /img/微信图片_20240829011946.jpg
+  effect: false
 
 # Disable all banner images
 disable_top_img: false
