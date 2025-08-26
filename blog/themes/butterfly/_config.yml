@@ -72,7 +72,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /img/images.jpg
+index_img: /img/top.jpg
 
 # The banner image of archive page
 archive_img:
@@ -98,7 +98,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background: /img/background2.jpg
+background: /img/background.jpg
 
 cover:
   # Disable the cover or not
@@ -148,9 +148,9 @@ post_meta:
 # The top_img settings of home page
 # default: top img - full screen, site info - middle
 # The position of site info, eg: 300px/300em/300rem/10%
-index_site_info_top:
+index_site_info_top: 40%
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 60vh
 
 # The subtitle on homepage
 subtitle:
@@ -544,6 +544,7 @@ comments:
   # Display comment count in Home Page
   card_post_count: false
 
+
 # Disqus
 # https://disqus.com/
 disqus:
@@ -908,7 +909,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: medium_zoom
 
 # --------------------------------------
 # Tag Plugins settings
@@ -1006,13 +1007,13 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
-  native: false
+  native: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
