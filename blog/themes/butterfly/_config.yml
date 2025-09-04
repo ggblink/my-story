@@ -72,7 +72,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: /img/top.jpg
+index_img: /img/微信图片_20240829011946-fotor-20250902235657.png
 
 # The banner image of archive page
 archive_img:
@@ -98,7 +98,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background: /img/background.jpg
+background: /img/butterfly.png
 
 cover:
   # Disable the cover or not
@@ -106,7 +106,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover: /img/images11.jpg
+  default_cover: /img/butterfly3.jpg
     # - xxx.jpg
 
 # Replace Broken Images
